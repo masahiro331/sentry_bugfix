@@ -1,12 +1,7 @@
 import logging
 import sentry_sdk
-from sentry_sdk.integrations.logging import LoggingIntegration
 
-sentry_logging = LoggingIntegration(
-    level=logging.DEBUG,
-    event_level=logging.ERROR
-)
-sentry_sdk.init(dsn="YOUR SENTRY_DSN", integrations=[sentry_logging])
+sentry_sdk.init(dsn="https://fcf7ba8a60654acdbf6a5e7a69703dab@sentry.io/1270125")
 
 def main():
     try:
