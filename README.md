@@ -1,5 +1,5 @@
 set your SENTRY\_DSN
 
 ```
-pipenv run install example.py
+pipenv run python example.py
 ```
